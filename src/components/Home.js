@@ -60,7 +60,7 @@ function Home(props) {
             <p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} Character Count {text.length} Word Count</p>
             <p>{0.008 * text.split(' ').filter((element)=>{return element.length!==0}).length} Minutes Read</p>
             <p>Preview</p>
-            <p>{text}</p>
+            <p>{text.length>0?text:"Nothing to preview!"}</p>
         </div>
     </>
   );

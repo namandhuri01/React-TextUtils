@@ -49,7 +49,6 @@ function App() {
 					<Home showAlert={showAlert} heading="Enter Your Text Here" mode={mode} />
 				</Route>
 			</Switch>
-          	
         </div>
       </Router>
     </>
